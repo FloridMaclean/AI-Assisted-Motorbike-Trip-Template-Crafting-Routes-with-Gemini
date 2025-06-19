@@ -20,14 +20,14 @@ Here are examples of optimized, single prompts you can use to get detailed outpu
 
     * **Example Prompt:**
         ```
-        "I need a motorbike route from [STARTING CITY] to [DESTINATION CITY], via [WAYPOINT 1] and [WAYPOINT 2]. It's crucial to strictly avoid all highways and ferries. Along this route, please list some worth-visiting locations, including local shops, nature places, or scenic spots. For each suggestion, give me an approximate time I should plan to spend there. Finally, considering this is a motorbike trip, what would be the best time of day to embark on and enjoy this route fully? Please provide the Google Maps link for this route as well."
+        "I need a motorbike route from [STARTING CITY] to [DESTINATION CITY], via [WAYPOINT 1] and [WAYPOINT 2]. It's crucial to strictly avoid all highways, tolls and ferries. Along this route, please list some worth-visiting locations, including local shops, nature places, or scenic spots. For each suggestion, give me an approximate time I should plan to spend there. Finally, considering this is a motorbike trip, what would be the best time of day to embark on and enjoy this route fully? Please provide the Google Maps link for this route as well."
         ```
 
 * **Comprehensive Return Alternate Route Prompt:** This prompt asks for a distinct return path that avoids similar experiences to the outbound journey, and requests the map link directly.
 
     * **Example Prompt:**
         ```
-        "Now for the return journey from [DESTINATION CITY] back to [STARTING CITY]: I need an alternate motorbike route that avoids all highways and is distinct from the path taken on the way there (no similar towns or scenery). Please provide the Google Maps link for this return route."
+        "Now for the return journey from [DESTINATION CITY] back to [STARTING CITY]: I need an alternate motorbike route that avoids all highways, tolls, and ferries and is distinct from the path taken on the way there (no similar towns or scenery). Please provide the Google Maps link for this return route."
         ```
 
 * **Full Trip Summary Prompt:** Once you have the details for both legs, use this to consolidate everything.
